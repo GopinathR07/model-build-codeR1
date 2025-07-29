@@ -1,0 +1,60 @@
+
+body p {
+    font-family : arial;
+}
+/* youtube video container info code*/
+
+.main-youtube-video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+.source-video {
+    width : 100%;
+    object-fit: contain;
+}
+
+.source-profile-image{
+    height : 40px;
+    width : 40px;
+    border-radius : 20px;
+}
+
+.source-video-profile{
+    vertical-align: top;
+}
+
+/* youtube video content style*/
+
+.video-content-info {
+    font-size : 16px;
+    padding-bottom : 14px;
+}
+
+.channel-name, .channel-views {
+    font-size : 13px;
+    color : hsl(0, 1%, 69%);
+    padding-bottom : 10px;
+}
+
+/* video-content grid */
+
+.source-video {
+    margin-bottom : 3px;
+}
+
+.source-video-contents p{
+    margin : 0;
+}
+
+.source-video-contents {
+ padding-left: 10px;
+}
+
+.source-video-info {
+    display : grid;
+    grid-template-columns: 40px 1fr;
+}
+
