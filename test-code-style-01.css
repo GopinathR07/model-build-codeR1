@@ -2,6 +2,39 @@
 body p {
     font-family : arial;
 }
+
+/* header container*/
+
+.main-header-container {
+    display : flex;
+    height : 40px;
+    margin-bottom : 10px;
+}
+
+.left-header-container {
+    background-color: lightblue;
+    width : 200px;
+}
+
+.middle-header-container {
+    background-color: lightpink;
+    margin-left : 150px;
+    margin-right : 100px;
+    flex : 1;
+}
+
+.search-icon-img, .voice-icon-img {
+    width : 25px;
+    height : 25px;
+}
+
+.right-header-container {
+    background-color: lightblue;
+    width : 300px;
+
+}
+
+
 /* youtube video container info code*/
 
 .main-youtube-video-container {
@@ -14,6 +47,7 @@ body p {
 .source-video {
     width : 100%;
     object-fit: contain;
+    border-radius: 1rem;
 }
 
 .source-profile-image{
