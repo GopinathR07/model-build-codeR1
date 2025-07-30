@@ -213,7 +213,8 @@ body {
 }
 
 .barbreak{
-    
+    margin-top : 10px;
+    margin-bottom : -5px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color : hsl(0, 9%, 89%);
@@ -253,6 +254,12 @@ body {
     font-weight: 500;
 }
 
+.slide-symbol {
+    font-size: 20px;
+    font-weight : bold;
+    margin-left : 8px;
+}
+
 .middle-slide-header-name {
     font-family: arial;
     font-weight: 600;
@@ -266,6 +273,7 @@ body {
     display: flex;
     align-items: center;
     padding : 12px;
+    margin-top : -12px;
  }
 
  .middle-subcription-img-source{
