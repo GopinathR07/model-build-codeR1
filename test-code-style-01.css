@@ -12,26 +12,116 @@ body p {
 }
 
 .left-header-container {
-    background-color: lightblue;
     width : 200px;
 }
 
-.middle-header-container {
-    background-color: lightpink;
-    margin-left : 150px;
-    margin-right : 100px;
-    flex : 1;
+.left-header-container {
+    display : flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.search-icon-img, .voice-icon-img {
+.left-handburger-menu {
+    width : 30px;
+    height : 30px;
+    padding-right : 25px;
+}
+
+.left-youtube-logo {
+    width : 120px;
+    height : 120px;
+}
+
+.middle-header-container {
+    margin-left : 220px;
+    margin-right : 100px;
+    flex : 1;
+    display : flex;
+}
+
+.search-icon-img{
     width : 25px;
     height : 25px;
+    margin-left : -5px;
+    margin-top : 2px;
+}
+
+.middle-search-box {
+    height : 38px;
+    flex : 1;
+    max-width : 550px;
+    width : 0px;
+    border : 1px hsl(0, 5%, 83%) solid;
+    padding-left : 10px;
+    border-top-left-radius : 25px;
+    border-bottom-left-radius: 25px;
+    font-size : 15px;
+    outline : none;
+}
+
+.middle-search-button {
+    margin-bottom : -1.3px;
+    margin-left : -1px;
+    border : 1px hsl(0, 5%, 83%) solid;
+    width : 70px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-right : 13px;
+}
+
+
+.voice-icon-img  {
+    width : 25px;
+    height : 25px;
+    margin-top : 5px;
+}
+.middle-voice-button {
+    width : 38px;
+    height : 38px;
+    border-radius: 20px;
+    border : none;
 }
 
 .right-header-container {
-    background-color: lightblue;
-    width : 300px;
+    width : 220px;
+    display : flex;
+    justify-content: space-between;
+    margin-right : 10px;
+}
 
+.create-img{
+    width : 25px;
+    height : 25px;
+    margin-top : -2px;
+    padding-left : 5px;
+}
+
+.create-button {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border : none;
+}
+
+.create-button p {
+   margin-left : 5px;
+   font-size: 16px;
+   font-weight: 550;
+   padding-right : 5px;
+}
+.notification-img {
+    width : 38px;
+    height : 38px;
+    border-radius: 19px;
+    margin-left: -7px;
+    margin-top : -2px;
+}
+
+.notification-button {
+    width : 38px;
+    height : 38px;
+    border-radius: 19px;
+    border : none;
 }
 
 
