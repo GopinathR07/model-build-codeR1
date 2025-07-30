@@ -3,12 +3,25 @@ body p {
     font-family : arial;
 }
 
+body {
+    padding-top : 60px;
+    padding-left : 260px;
+}
+
 /* header container*/
 
 .main-header-container {
     display : flex;
     height : 40px;
     margin-bottom : 10px;
+    position : fixed;
+    background-color: white;
+    left : 0;
+    right : 0;
+    top : 0;
+    padding-top : 8px;
+    padding-bottom : 15px;
+    z-index: 100;
 }
 
 .left-header-container {
@@ -124,7 +137,6 @@ body p {
     border : none;
 }
 
-
 /* youtube video container info code*/
 
 .main-youtube-video-container {
@@ -182,3 +194,98 @@ body p {
     grid-template-columns: 40px 1fr;
 }
 
+
+/* main slide window conntainer */
+
+.main-slide-container{
+    position : fixed;
+    width : 250px;
+    background-color: white;
+    bottom : 0;
+    top : 62px;
+    left : 0;
+    overflow-y: auto;
+}
+
+.top-slide-container, .middle-slide-container, .middle-subcription-slide-container, .middle-explore-container, .more-operation-youtube-container, .extra-youtube-operation-container, .about-youtube-container {
+    width : 200px;
+    padding : 10px;
+}
+
+.barbreak{
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color : hsl(0, 9%, 89%);
+}
+
+.top-slide-window, .middle-slide-window , .middle-subcription-slide-window, .middle-explore-slide-window, .more-operation-slide-window, .extra-operation-slide-window{
+    display : flex;
+    align-items: center;
+    padding : 12px;
+    cursor : pointer;
+    border-radius: 12px;
+}
+
+.active {
+    background-color: #f5f5f5;
+}
+.top-slide-window:hover, .middle-slide-window:hover, .middle-subcription-slide-window:hover, .middle-explore-slide-window:hover, .more-operation-slide-window:hover, .extra-operation-slide-window:hover {
+    background-color: #f5f5f5;
+}
+
+.top-img-source , .middle-img-source, .middle-subcription-img-source, .middle-explore-img-source, .more-operation-img-source, .extra-operation-img-source{
+    width : 20px;
+    height : 20px;
+}
+
+.top-slide-icon , .middle-slide-icon, .middle-subcription-slide-icon, .middle-explore-slide-icon, .more-operation-slide-icon, .extra-operation-slide-icon{
+    padding-left : 5px;
+    margin-right : 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-slide-name , .middle-slide-name, .middle-subcription-slide-name, .middle-explore-slide-name, .more-operation-slide-name, .extra-operation-slide-name{
+    font-size: 15px;
+    font-family : arial;
+    font-weight: 500;
+}
+
+.middle-slide-header-name {
+    font-family: arial;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ .subcription-slide-header-name, .explore-slide-header-name, .more-slide-header-name {
+    font-family: arial;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding : 12px;
+ }
+
+ .middle-subcription-img-source{
+    width : 22px;
+    height : 22px;
+    border-radius: 15px;
+}
+
+.about-youtube-container {
+    margin-left : 12px;
+}
+.about-youtube-container p {
+    width : 180px;
+    font-size: 12.5px;
+    color : rgb(129, 127, 127);
+    line-height: 25px;
+    font-weight: 550;
+}
+
+.about-youtube-container .copy-rights{
+    color : rgb(156, 151, 151);
+    font-weight: 500;
+}
