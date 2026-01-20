@@ -52,6 +52,87 @@ const video_container = [{
             channelName : "All World Explore",
             videoView : "10M . 1 week ago"
     } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
+},{
+    videoSource : "/thumline/anime-image.jpg",
+    preview : {
+        userProfileImg : "/thumline/bay-blade.jpg",
+        videoInfo : {
+            videoContent : "The fascinating places in Japan attract with peace intriguing nature, a captivating atmosphere",
+            channelName : "All World Explore",
+            videoView : "10M . 1 week ago"
+    } }
 }
 ];
 
